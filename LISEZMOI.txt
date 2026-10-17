@@ -1,0 +1,35 @@
+FAMILLES D'IMPACT MONCTON — VERSION GITHUB PAGES
+=================================================
+
+1) METTRE EN LIGNE SUR GITHUB PAGES (gratuit, dépôt PUBLIC)
+  a. Sur github.com, crée un dépôt (ex. « familles-impact-moncton »), en public.
+  b. « Add file » > « Upload files » : glisse TOUT le contenu du dossier
+     (index.html, 404.html, photos/, video/, etc.), puis « Commit changes ».
+  c. Dépôt > « Settings » > « Pages » : Source = « Deploy from a branch »,
+     Branch = main, dossier = / (root), puis « Save ».
+  d. Après 1 à 2 minutes, le site est à l'adresse
+     https://TON-NOM.github.io/familles-impact-moncton/
+  e. Nom de domaine perso : même page « Pages » > « Custom domain ».
+
+2) FORMULAIRES : IMPORTANT
+  GitHub Pages n'a pas de serveur : les formulaires intégrés NE PEUVENT PAS
+  envoyer de messages. Il faut utiliser Tally (gratuit) :
+    - Crée 3 formulaires sur tally.so :
+        inscription : prénom et nom, WhatsApp ou téléphone, courriel (facultatif),
+                      consentement + champs cachés  type, adresse, familles
+        hotePilote  : « Je veux être… » (Hôte / Pilote / Les deux), nom, contact,
+                      rue et ville, message, consentement + champ caché  role
+        contact     : nom, courriel, message
+    - Dans index.html, bloc CONFIG, remplis  tally: { inscription:"", hotePilote:"", contact:"" }
+      avec la fin de chaque lien tally.so/r/XXXX.
+    - Dans Tally > Integrations : envoie les réponses vers Google Sheets ou par courriel.
+  Tant que les IDs sont vides, les boutons d'envoi affichent un message qui renvoie vers WhatsApp.
+
+3) LE RESTE
+  Voir photos/LISEZMOI.txt et video/LISEZMOI.txt pour les médias.
+  Modifier le contenu : bloc « CONFIGURATION » en haut du script de index.html
+  (CONFIG, FAMILLES, SECTEURS_A_OUVRIR).
+
+4) CONFIDENTIALITÉ
+  Un dépôt public est visible par tous. N'y mets JAMAIS d'adresse exacte
+  d'hôte : les coordonnées lat/lng du site sont volontairement arrondies (~1 km).

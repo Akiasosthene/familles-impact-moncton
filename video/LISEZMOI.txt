@@ -1,0 +1,9 @@
+DOSSIER DE LA VIDÉO
+-------------------
+  accueil.mp4   Vidéo de la page d'accueil FI (muette, en boucle, 10 à 20 secondes)
+  accueil.jpg   Image affichée pendant le chargement de la vidéo (facultatif)
+
+Conseils :
+  - Format MP4 (H.264), 720p, moins de 5 Mo. Le son est coupé automatiquement.
+  - Format vertical ou carré recommandé : la vidéo s'affiche dans un cadre 4:5.
+  - Sans fichier ici, le site utilise la vidéo Pexels provisoire.

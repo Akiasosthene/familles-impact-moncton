@@ -1,0 +1,17 @@
+DOSSIER DES PHOTOS
+------------------
+Dépose ici tes propres photos, avec EXACTEMENT ces noms, et elles remplaceront
+automatiquement les photos provisoires (Pexels) :
+
+  accueil.jpg    Première page (grande photo plein écran, format paysage ou carré)
+  etape-1.jpg    Étape 1 « Dis-nous où tu habites »   (format 4:3)
+  etape-2.jpg    Étape 2 « On te met en contact »     (format 4:3)
+  etape-3.jpg    Étape 3 « Viens à la prochaine soirée » (format 4:3)
+  hote.jpg       Carte « Devenir hôte »               (format 16:10)
+  pilote.jpg     Carte « Devenir pilote »             (format 16:10)
+  contact.jpg    Section Contact                      (format 4:3)
+  a-propos.jpg   Page À propos                        (format 4:3)
+
+Conseils :
+  - Format .jpg, largeur 1600 px maximum, moins de 400 Ko chaque (pense au mobile).
+  - Demande l'accord des personnes photographiées avant de publier.
